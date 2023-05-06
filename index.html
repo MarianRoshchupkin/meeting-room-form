@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Форма бронирования переговорной</title>
+
+  <link rel="preload" href="fonts/Roboto-Regular.woff" as="font">
+  <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font">
+
+  <link rel="stylesheet" href="style/normalize.css">
+  <link rel="stylesheet" href="style/style.css">
+
+  <script defer src="js/script.js"></script>
+</head>
+
+<body>
+  <form class="form">
+    <h1 class="form__title">Форма для заполнения</h1>
+    <label class="form__label">
+      Выберите башню
+      <select class="form__select" name="башня">
+        <option value="а">Башня А</option>
+        <option value="б">Башня Б</option>
+      </select>
+    </label>
+    <label class="form__label">
+      Выберите переговорную комнату
+      <select class="form__select" name="комната">
+        <option value="1">Комната 1</option>
+        <option value="2">Комната 2</option>
+        <option value="3">Комната 3</option>
+        <option value="4">Комната 4</option>
+        <option value="5">Комната 5</option>
+        <option value="6">Комната 6</option>
+        <option value="7">Комната 7</option>
+        <option value="8">Комната 8</option>
+        <option value="9">Комната 9</option>
+        <option value="10">Комната 10</option>
+      </select>
+    </label>
+    <label class="form__label">
+      Выберите этаж
+      <select class="form__select" name="этаж">
+        <option value="3">Этаж 3</option>
+        <option value="4">Этаж 4</option>
+        <option value="5">Этаж 5</option>
+        <option value="6">Этаж 6</option>
+        <option value="7">Этаж 7</option>
+        <option value="8">Этаж 8</option>
+        <option value="9">Этаж 9</option>
+        <option value="10">Этаж 10</option>
+        <option value="11">Этаж 11</option>
+        <option value="12">Этаж 12</option>
+        <option value="13">Этаж 13</option>
+        <option value="14">Этаж 14</option>
+        <option value="15">Этаж 15</option>
+        <option value="16">Этаж 16</option>
+        <option value="17">Этаж 17</option>
+        <option value="18">Этаж 18</option>
+        <option value="19">Этаж 19</option>
+        <option value="20">Этаж 20</option>
+        <option value="21">Этаж 21</option>
+        <option value="22">Этаж 22</option>
+        <option value="23">Этаж 23</option>
+        <option value="24">Этаж 24</option>
+        <option value="25">Этаж 25</option>
+        <option value="26">Этаж 26</option>
+        <option value="27">Этаж 27</option>
+      </select>
+    </label>
+    <label class="form__label">
+      Выберите дату и время
+      <input class="form__input-date" type="date" name="дата" />
+    </label>
+    <label class="form__label">
+      Выберите время начала
+      <input class="form__input-time" type="time" name="время_начала" />
+    </label>
+    <label class="form__label">
+      Выберите время окончания
+      <input class="form__input-time" type="time" name="время_окончания" />
+    </label>
+    <label class="form__label">
+      Комментарий
+      <textarea class="form__comment" name="комментарий"></textarea>
+    </label>
+    <label class="form__buttons">
+      <button class="btn-reset form__button form__button-send">Отправить</button>
+      <button class="btn-reset form__button form__button-clear">Очистить</button>
+    </label>
+  </form>
+</body>
+
+</html>
